@@ -1,0 +1,23 @@
+{
+  "name": "devsecops-learning-hub",
+  "version": "1.0.0",
+  "description": "Interactive DevSecOps learning platform with Docker, Kubernetes, and ArgoCD examples",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "devsecops",
+    "docker",
+    "kubernetes",
+    "argocd",
+    "learning",
+    "web-app"
+  ],
+  "author": "DevSecOps Learning Hub",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+} 

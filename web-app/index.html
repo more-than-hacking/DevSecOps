@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker Learning Hub - Complete Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span>🐳 Docker Learning Hub</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#" class="nav-link active" data-section="home">Home</a>
+                <a href="#" class="nav-link" data-section="history">History & Why</a>
+                <a href="#" class="nav-link" data-section="basics">Basic Concepts</a>
+                <a href="#" class="nav-link" data-section="advanced">Advanced Topics</a>
+                <a href="#" class="nav-link" data-section="security">Security A-Z</a>
+                <a href="#" class="nav-link" data-section="practical">Practical Examples</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Home Section -->
+            <section id="home" class="content-section active">
+                <h1>🐳 Complete Docker Learning Path</h1>
+                <p>Master containerization from fundamentals to advanced security practices</p>
+                
+                <div class="learning-path">
+                    <h2>Your Learning Journey</h2>
+                    <div class="path-grid">
+                        <div class="path-item" data-section="history">
+                            <h3>📚 History & Why Containers?</h3>
+                            <p>Understand the evolution and purpose of containerization</p>
+                        </div>
+                        <div class="path-item" data-section="basics">
+                            <h3>🔰 Basic Concepts</h3>
+                            <p>Learn containers, images, and fundamental Docker concepts</p>
+                        </div>
+                        <div class="path-item" data-section="advanced">
+                            <h3>🚀 Advanced Topics</h3>
+                            <p>Multi-stage builds, orchestration, and optimization</p>
+                        </div>
+                        <div class="path-item" data-section="security">
+                            <h3>🛡️ Security A-Z</h3>
+                            <p>Complete security guide for containers</p>
+                        </div>
+                        <div class="path-item" data-section="practical">
+                            <h3>💻 Practical Examples</h3>
+                            <p>Hands-on exercises and real-world scenarios</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- History Section -->
+            <section id="history" class="content-section">
+                <h1>📚 History & Why Containers?</h1>
+                <div class="content-nav">
+                    <button class="content-btn active" data-file="evolution">Evolution</button>
+                    <button class="content-btn" data-file="why-containers">Why Containers?</button>
+                    <button class="content-btn" data-file="before-containers">Before Containers</button>
+                    <button class="content-btn" data-file="docker-story">Docker Story</button>
+                </div>
+                <div id="history-content" class="markdown-content">
+                    <!-- Content will be loaded here -->
+                </div>
+            </section>
+
+            <!-- Basic Concepts Section -->
+            <section id="basics" class="content-section">
+                <h1>🔰 Basic Docker Concepts</h1>
+                <div class="content-nav">
+                    <button class="content-btn active" data-file="what-is-docker">What is Docker?</button>
+                    <button class="content-btn" data-file="containers-vs-vms">Containers vs VMs</button>
+                    <button class="content-btn" data-file="images-containers">Images & Containers</button>
+                    <button class="content-btn" data-file="docker-architecture">Docker Architecture</button>
+                    <button class="content-btn" data-file="basic-commands">Basic Commands</button>
+                </div>
+                <div id="basics-content" class="markdown-content">
+                    <!-- Content will be loaded here -->
+                </div>
+            </section>
+
+            <!-- Advanced Topics Section -->
+            <section id="advanced" class="content-section">
+                <h1>🚀 Advanced Docker Topics</h1>
+                <div class="content-nav">
+                    <button class="content-btn active" data-file="multi-stage">Multi-Stage Builds</button>
+                    <button class="content-btn" data-file="docker-compose">Docker Compose</button>
+                    <button class="content-btn" data-file="networking">Networking</button>
+                    <button class="content-btn" data-file="volumes">Volumes & Storage</button>
+                    <button class="content-btn" data-file="optimization">Image Optimization</button>
+                </div>
+                <div id="advanced-content" class="markdown-content">
+                    <!-- Content will be loaded here -->
+                </div>
+            </section>
+
+            <!-- Security Section -->
+            <section id="security" class="content-section">
+                <h1>🛡️ Container Security A-Z</h1>
+                <div class="content-nav">
+                    <button class="content-btn active" data-file="security-fundamentals">Security Fundamentals</button>
+                    <button class="content-btn" data-file="vulnerability-scanning">Vulnerability Scanning</button>
+                    <button class="content-btn" data-file="runtime-security">Runtime Security</button>
+                    <button class="content-btn" data-file="best-practices">Best Practices</button>
+                    <button class="content-btn" data-file="compliance">Compliance & Governance</button>
+                </div>
+                <div id="security-content" class="markdown-content">
+                    <!-- Content will be loaded here -->
+                </div>
+            </section>
+
+            <!-- Practical Examples Section -->
+            <section id="practical" class="content-section">
+                <h1>💻 Practical Examples</h1>
+                <div class="content-nav">
+                    <button class="content-btn active" data-file="hello-world">Hello World</button>
+                    <button class="content-btn" data-file="web-app">Web Application</button>
+                    <button class="content-btn" data-file="database">Database Container</button>
+                    <button class="content-btn" data-file="multi-service">Multi-Service App</button>
+                    <button class="content-btn" data-file="production">Production Setup</button>
+                </div>
+                <div id="practical-content" class="markdown-content">
+                    <!-- Content will be loaded here -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
